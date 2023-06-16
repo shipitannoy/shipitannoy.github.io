@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A.N.N.O.Y admin page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- <input type="text" placeholder="&#xf007;  username"/> -->
+    <div class="outer">
+        <div class="centeredDiv">
+            <input type="text" id="username" placeholder="Username" name="name" required minlength="4">
+        </div>
+        <div class="centeredDiv">
+            <input type="text" id="password" placeholder="Password" name="name" required minlength="4">
+        </div class="centeredDiv">
+        <div class="centeredDiv">
+            <button style="width:153px" onclick="window.location.href='admin.html'" id="login_button" type="button">Login</button>
+        </div>
+        <div class="centeredDiv">
+            <button style="width:153px" onclick="function hi(){alert('Well, you just need to remember.')};hi()" id="login_button"
+                type="button">Forgotten password?</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
